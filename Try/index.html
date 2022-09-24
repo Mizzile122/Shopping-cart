@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+    <meta http-equip="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.store.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <div class="wrapper container">
+            <div class="logo">
+                <img src="images/0b38de95-1c82-4b21-9275-91166075e9e1.jfif">
+            </div>
+            <div class="menu-area">
+                <li>
+                    <input type="text" name="" id="search" placeholder="What you are looking for...">
+                </li>
+            </div>
+            <ul class="nav-list">
+                <div class="top">
+                    <label for="" class="btn close-btn">
+                        <i class="fas fa-times">
+                        </i></label>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="" class="desktop-item">Catagories <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showMega">
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <header>CLASS 8</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">CBSE</a></li>
+                                    <li><a href="#">ICSE</a></li>
+                                    <li><a href="#">STATE BOARD</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>CLASS 9</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">CBSE</a></li>
+                                    <li><a href="#">ICSE</a></li>
+                                    <li><a href="#">STATE BOARD</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>CLASS 10</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">CBSE</a></li>
+                                    <li><a href="#">ICSE</a></li>
+                                    <li><a href="#">STATE BOARD</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>CLASS 11</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">CBSE</a></li>
+                                    <li><a href="#">ICSE</a></li>
+                                    <li><a href="#">STATE BOARD</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>CLASS 12</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">CBSE</a></li>
+                                    <li><a href="#">ICSE</a></li>
+                                    <li><a href="#">STATE BOARD</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">ABOUT US</a></li>
+
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                </li>
+                <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+
+    <div>
+        <div>
+            <section class="new-arrivals">
+                <div id="site">
+                    <div class="container">
+                        <div class="title-box">
+                            <h2>New Arrivals</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/Science guide.jpeg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Science Guide</h3>
+                                <div class="product-description" data-name="Science guide" data-price="100">
+
+                                    <p class="product-price">&#x20B9; 100</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/book.jpeg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>English</h3>
+                                <div class="product-description" data-name="Couch" data-price="15">
+
+                                    <p class="product-price">&#x20B9; 15</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/table1.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Social</h3>
+                                <div class="product-description" data-name="Table" data-price="14">
+
+                                    <p class="product-price">&#x20B9; 14</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/bed1.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Computer</h3>
+                                <div class="product-description" data-name="Bed" data-price="30">
+
+                                    <p class="product-price">&#x20B9; 30</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/mirror2.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Maths</h3>
+                                <div class="product-description" data-name="Mirror-1" data-price="31">
+
+                                    <p class="product-price">&#x20B9; 31</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/sofa2.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>English</h3>
+                                <div class="product-description" data-name="Couch" data-price="30">
+
+                                    <p class="product-price">&#x20B9; 30</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/table2.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Social</h3>
+                                <div class="product-description" data-name="Table" data-price="16">
+
+                                    <p class="product-price">&#x20B9; 16</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/bed2.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Computer</h3>
+                                <div class="product-description" data-name="Bed" data-price="40">
+
+                                    <p class="product-price">&#x20B9; 40</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+        </div>
+        </section>
+
+
+        <section class="on-sale">
+            <div id="site">
+                <div class="container">
+                    <div class="title-box">
+                        <h2>On Sale</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/mirror3.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Maths</h3>
+                                <div class="product-description" data-name="Mirror-1" data-price="12">
+
+                                    <p class="product-price">&#x20B9; 12</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/sofa3.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>English</h3>
+
+                                <div class="product-description" data-name="English" data-price="34">
+
+                                    <p class="product-price">&#x20B9; 34</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/table3.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Social</h3>
+                                <div class="product-description" data-name="Table" data-price="20">
+
+                                    <p class="product-price">&#x20B9; 20</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/bed3.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Computer</h3>
+                                <div class="product-description" data-name="Bed" data-price="60">
+
+                                    <p class="product-price">&#x20B9; 60</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/mirror4.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Maths</h3>
+                                <div class="product-description" data-name="Mirror" data-price="17">
+
+                                    <p class="product-price">&#x20B9; 17</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/sofa4.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>English</h3>
+                                <div class="product-description" data-name="Couch" data-price="28">
+
+                                    <p class="product-price">&#x20B9; 28</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/table4.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Social</h3>
+                                <div class="product-description" data-name="Table" data-price="21">
+
+                                    <p class="product-price">&#x20B9; 21</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="images/bed4.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="fa fa-heart-o"></i>
+                        </button>
+
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </button>
+                                </div>
+                            </div>
+
+
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <h3>Computer</h3>
+
+                                <div class="product-description" data-name="Bed" data-price="25">
+
+                                    <p class="product-price">&#x20B9; 25</p>
+                                    <form class="add-to-cart" action="cart.html" method="post">
+                                        <div>
+                                            <label for="qty-2">Quantity</label>
+                                            <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
